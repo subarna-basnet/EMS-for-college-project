@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#efe8e2"/>
+  <rect x="0" y="0" width="640" height="28" fill="#0b3a4a"/>
+  <text x="16" y="19" fill="#f7f4ee" font-family="Georgia, serif" font-size="13">ILLUSTRATIVE SAMPLE — NOT A SATELLITE IMAGE</text>
+  <text x="480" y="19" fill="#f7f4ee" font-family="Georgia, serif" font-size="13">AFTER</text>
+  <path d="M0 250 C80 250 120 160 200 150 C280 140 300 210 380 200 C460 190 500 120 640 110 L640 360 L0 360 Z" fill="#8d7a68"/>
+  <path d="M150 168 L230 250 L310 190 L250 160 Z" fill="#a24b32"/>
+  <path d="M210 240 L280 310 L360 300 L300 250 Z" fill="#6e4a3a"/>
+  <text x="24" y="48" fill="#14222b" font-family="Georgia, serif" font-size="18">Drawn scar and debris, not a mapped failure</text>
+  <text x="24" y="72" fill="#3f4e56" font-family="sans-serif" font-size="13">Shown only inside a demo scenario.</text>
+</svg>

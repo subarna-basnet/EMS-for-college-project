@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-source-sans), "Segoe UI", sans-serif;
+  --font-serif: var(--font-fraunces), Georgia, serif;
+  --color-ink: #14222b;
+  --color-muted: #3f4e56;
+  --color-line: #d5dedb;
+  --color-paper: #e7eeeb;
+  --color-card: #fbfaf7;
+  --color-accent: #0b3a4a;
+  --color-low: #1d6b45;
+  --color-moderate: #8a6a12;
+  --color-high: #b45309;
+  --color-critical: #9f1239;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid #0b3a4a;
+  outline-offset: 2px;
+}
+
+.map-shell,
+.map-shell .maplibregl-map {
+  height: 100%;
+  width: 100%;
+}
+
+.tarra-pin {
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px rgba(20, 34, 43, 0.45);
+  padding: 0;
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 11px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
+}
